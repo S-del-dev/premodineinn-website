@@ -1,0 +1,531 @@
+Sobari, [13-Apr-23 1:46 PM]
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+*
+{
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(A6.jpeg) center center fixed;
+}
+
+header
+{
+    background-image: url("7.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav
+{
+    text-decoration: none;
+    background: url(7.jpeg);
+    display: inline-block;
+    margin: 2% 0% 0% 20%;
+    font-weight:600;
+    height: 20px;
+}
+
+body{
+  background: url(A6.jpg) center center fixed;
+}
+.profile
+{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color:r#ee00e2;
+    opacity: 60rem;
+    font-weight:600;
+}
+
+h1
+{
+  font-size: 300%;
+    
+    
+    word-spacing: 25%;
+}
+
+.intro , .prof_pic
+{
+    margin: auto;
+  
+}
+
+.intro
+{
+    box-sizing: border-box;
+    padding: 4px;
+    width: 30%; 
+    color: rgb(  0, 0, 0);
+    margin-left: 50px;
+    height: 450px;
+
+}
+#intro{
+
+  background-color:   #ffffff;
+  
+}
+.aboutintro
+{
+    box-sizing: border-box;
+    padding: 40px;
+    padding-top: 5px;
+    width:40%; 
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    height: 410px;
+  line-height: 40px;
+  margin-top: 50px;
+}
+#aboutintro{
+background-color: #fafae5;
+
+}
+
+.aboutintro p{
+
+font-size: 15px;
+line-height: 30px;
+
+}
+
+img
+{
+    width:800px;
+    height:400px;
+}
+#pichome
+{
+    width:680px;
+    height:500px;
+}
+
+.kitchen {
+  margin: 190px;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-items: center;
+  text-align: center;
+  background: #080008;
+  color: #ffffff;
+}
+
+
+.imagess {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:1px;
+  margin-right:0px;
+
+  box-sizing: border-box;
+  padding-top: 0px;
+  text-align: center;
+}
+  .image1{
+width: calc(40%);
+height: 500px;
+margin-top:0px;
+margin-bottom:0px;
+margin-left:1px;
+margin-right:0px;
+
+box-sizing: border-box;
+padding-top: 0px;
+}
+#bookintro{
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  color: #fafae5;
+
+
+}
+p
+{
+    font-size: 20px;
+    word-spacing: 2px;
+    margin-bottom: 2px;
+}
+    
+
+.empty
+{
+    height:70px;
+}
+
+li
+{
+    margin-top: 10px;
+}
+
+h3
+{
+    margin-top: 7px;
+}
+
+.link
+{
+    display: inline-block;
+    text-decoration: aqua;
+    color:rgb(248, 137, 137);
+    
+    
+}
+
+button
+{
+    background-color: white;
+    border-color: white;
+    margin: 5px 10px 5px;  
+}
+
+.images
+{
+    grid: 1fr 1fr 1fr;
+    margin-left: 10%;
+    max-height: fit-content;
+    
+}
+.gallery
+{
+    height: 350px;
+}
+.header
+{
+    box-sizing: border-box;
+   
+    width:30%
+}
+.head
+{
+    box-sizing: border-box;
+    
+    width:70%
+}
+.header , .head button
+{
+    margin: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #f7df09;
+    padding: 10px;
+    background: url(bghome.jpeg) center center fixed;
+    height: 50px;
+    font-size: 30px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: auto;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0%;
+  }
+  
+  nav ul li a {
+    color: #f7df09;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .left-nav {
+    flex: 1;
+    width:40%;
+    margin-left:0;
+    margin-right:0;
+  }
+  
+  .right-nav {
+    margin-right:0%;
+    width:60%;
+  }
+  .career_highlight
+  {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+    
+  }
+  .left-div{
+    width: calc(25% - 20px);
+    height: 100%;
+    margin-bottom: 40px;
+    background-color: #ccc;
+    box-sizing: border-box;
+  }
+ 
+  #whatweare{
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 20px;
+text-align: justify;
+word-spacing: 3px;
+  }
+  h2{
+    font-size: 150%;
+  }
+
+ 
+
+    #myDate {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+ 
+  height: 25px;
+  width: 90%;
+  font-size: medium;
+}
+#myTime {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  height: 25px;
+  width: 90%;
+  font-size: medium;
+}
+#btnbook{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: none;
+  color: #000000;
+  background: none;
+}
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:40% 30% 30%;
+    align-items: center;
+    height: 350px;
+    margin: 0;
+    background: #080008;
+    border-radius: 3rem;
+    border: 7px solid #afadac;
+  
+    
+   
+  }
+
+  .tablecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #f3ebf3 ;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .table1 {
+    width: calc(15%);
+    height: 50px;
+    margin-top:7px;
+    margin-bottom:8px;
+    margin-left:1px;
+    margin-right:0px;
+    background-color: #f3ebf3;
+    box-sizing: border-box;
+    padding-top: 0px;
+  border: solid black;}
+
+  #selectbook{
+    height: 45px;
+    width: 100%;
+  }
+  
+  select{
+    height: 45px;
+    width: 100%;
+    font-size: medium;
+  }
+  form{
+    height: 300px;
+    width: 400px;
+  }
+  form input{
+    height: 25px;
+    width: 300px;
+    margin: 10px;
+  }
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 750px;
+    background-color: #f3ebf3 ;
+    width: 100%;
+    margin: 0;
+  }
+  #messagebook{
+    height: 70px;
+  }
+  
+  .form1 {
+    width: calc(40%);
+    height: 50px;
+    margin-top:7px;
+    margin-bottom:8px;
+    margin-left:1px;
+    margin-right:0px;
+    background-color: #f3ebf3;
+    box-sizing: border-box;
+    padding-top: 0px;
+}
+.menucontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+  background-color: #f3ebf3 ;
+  width: 100%;
+  margin: 0;
+}
+
+.menu1 {
+  width: calc(30%);
+  height: 50px;
+  margin-top:7px;
+  margin-bottom:8px;
+  margin-left:1px;
+  margin-right:0px;
+  background-color: #f3ebf3;
+  box-sizing: border-box;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.order {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+  background-color: #f3ebf3 ;
+  width: 100%;
+  margin: 0;
+}
+
+.order1 {
+  width: calc(45%);
+  height: 50px;
+  margin-top:7px;
+  margin-bottom:8px;
+  margin-left:1px;
+  margin-right:0px;
+  background-color: #f3ebf3;
+  box-sizing: border-box;
+  padding-top: 0px;
+  text-align: center;
+}
+
+
+
+
+
+.order1 {
+  width: calc(45%);
+  height: 50px;
+  margin-top:7px;
+  margin-bottom:8px;
+  margin-left:1px;
+  margin-right:0px;
+  background-color: #f3ebf3;
+  box-sizing: border-box;
+  padding-top: 0px;
+  text-align: center;
+}
+  
+  .footerdiv {
+    width: calc(30%);
+    height: 300px;
+    margin-top:20px;
+    margin-bottom:0px;
+    margin-left:20px;
+    margin-right:20px;
+    background-color:#080008;
+    box-sizing: border-box;
+    padding-top: 20px;
+  align-content: center;
+align-items: center;
+text-align: justify;
+color: #ffffff;
+}
+.socialicon {
+  column-gap:auto;
+  column-width: 900px;
+  margin-left: 1px;
+  margin-right: 1px;
+  justify-content: 50px;
+  justify-items: 30px;
+ 
+}
+
+#Story{
+    color: #ffffff;
+    align-items: center;
+    
+    
+
+}
+
+
+
+button{
+  display: block;
+  margin: 5% auto 0;
+  border: none;
+  background: #e911de;
+  padding: 10px 17px;
+  color:#ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 8px;
+  width: 110px;
+  margin-bottom: 10px;
+ 
+ }
+ 
+ .btnHome{
+   width: 80%;
+   background-color: #f7df09;
+   color: #000000;
+   font-weight: 700;
+   font-size: larger;
+   margin-top: 30px;
+   cursor: pointer;
+ }
+ 
+ .btnHome:hover{
+   background-color: blue;
+ }
+ 
